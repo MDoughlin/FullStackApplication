@@ -28,10 +28,20 @@ export const Primary: Story = {
 
   args: {
     title: 'My Link',
+    username: 'yabishmish',
+    link: "www.google.com"
+  },
+
+}
+
+export const LinkWithPointsAndComments: Story = {
+
+  args: {
+    title: 'My Link',
     points: 132,
     username: 'yabishmish',
     commentCount: 12,
     link: "www.google.com"
-  }
+  },
 
 }

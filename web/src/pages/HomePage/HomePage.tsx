@@ -1,5 +1,6 @@
 // import { Link, routes } from '@redwoodjs/router'
 import { Metadata } from '@redwoodjs/web'
+import SharedLink from 'src/components/SharedLink/SharedLink'
 
 const HomePage = () => {
   return (
@@ -10,6 +11,8 @@ const HomePage = () => {
       <p>
         Find me in <code>./web/src/pages/HomePage/HomePage.tsx</code>
       </p>
+
+      <SharedLink title={''} points={0} username={''} commentCount={0} link={''} />
       {/*
           My default route is named `home`, link to me with:
           `<Link to={routes.home()}>Home</Link>`
